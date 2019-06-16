@@ -1,13 +1,14 @@
 #include <iostream>
 
-int someFunc(int someParam);
+int solution(int A[], int N);
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    return someFunc(1);
+    int A[] = {1, 2};
+    return solution(A, 2);
 }
 
-int someFunc(int someParam) {
-    return someParam;
+int solution(int A[], int N) {
+    return A[N-1];
 }
 
