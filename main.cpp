@@ -21,7 +21,7 @@ int solution(int A[], int N) {
     sort(A, A+N);
     printArray(A, N);
 
-    int idx = 0;
+    int idx = 1;
     int target = 1;
     int curr = A[idx];
 
